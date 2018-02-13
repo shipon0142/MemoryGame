@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:noHistory="true"
+    tools:context="com.example.shipon.memorygame.MainActivity">
+
+    <LinearLayout
+        android:paddingTop="5dp"
+   android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/idScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Score : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/idFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:text="Find : "
+            android:textAlignment="viewEnd"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingRight="5dp"
+                android:gravity="right|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:text="5"
+                    android:paddingRight="90dp"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+   <ImageView
+       android:id="@+id/img1"
+       android:layout_width="30sp"
+       android:layout_height="match_parent"
+       android:src="@drawable/love"/>
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="30sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/love"/>
+                <ImageView
+
+                    android:id="@+id/img3"
+                    android:layout_width="30sp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/love"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:onClick="Button_Click"
+        android:id="@+id/id1"
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id2"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id3"
+            android:text="3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id4"
+            android:text="4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id5"
+            android:text="5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id6"
+            android:text="6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id7"
+            android:text="7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id8"
+            android:text="8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id9"
+            android:text="9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id10"
+            android:text="10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id11"
+            android:text="11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id12"
+            android:text="12"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id13"
+            android:text="13"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id14"
+            android:text="14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id15"
+            android:text="15"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id16"
+            android:text="16"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+            android:id="@+id/id17"
+            android:text="17"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+            android:id="@+id/id18"
+            android:text="18"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+
+            android:onClick="Button_Click"
+            android:id="@+id/id19"
+            android:text="19"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/circle_button"/>
+        <Button
+            android:onClick="Button_Click"
+
+        android:id="@+id/id20"
+        android:text="20"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@drawable/circle_button"/>
+
+    </LinearLayout>
+      </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
